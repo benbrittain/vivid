@@ -1,0 +1,152 @@
+colors:
+  bg:           "272E33"
+  bg5:          "4F5B58"
+  bg_red:       "514045"
+  bg_green:     "425047"
+  bg_blue:      "3A515D"
+  bg_yellow:    "4D4C43"
+  fg:           "D3C6AA"
+  red:          "E67E80"
+  orange:       "E69875"
+  yellow:       "DBBC7F"
+  green:        "A7C080"
+  aqua:         "83C092"
+  blue:         "7FBBB3"
+  purple:       "D699B6"
+  grey0:        "7A8478"
+  grey1:        "859289"
+  grey2:        "9DA9A0"
+  statusline1:  "A7C080"
+  statusline2:  "D3C6AA"
+  statusline3:  "E67E80"
+
+core:
+  normal_text:
+    foreground: fg
+    background: bg
+
+  regular_file:
+    foreground: fg
+    background: bg
+
+  reset_to_normal: {}
+
+  directory:
+    foreground: aqua
+
+  symlink:
+    foreground: grey1
+    font-style: italic
+
+  multi_hard_link:
+    font-style: bold
+
+  fifo:
+    foreground: purple
+
+  socket:
+    foreground: purple
+    font-style: bold
+
+  door:
+    foreground: purple
+    font-style: bold
+
+  block_device:
+    foreground: yellow
+    font-style: bold
+
+  character_device:
+    foreground: yellow
+    font-style: italic
+
+  broken_symlink:
+    foreground: red
+    font-style: italic
+
+  missing_symlink_target:
+    foreground: fg
+    background: red
+
+  setuid:
+    foreground: fg
+    background: red
+
+  setgid:
+    foreground: bg
+    background: orange
+
+  file_with_capability:
+    foreground: bg
+    background: red
+
+  sticky_other_writable:
+    foreground: fg
+    background: blue
+    font-style: italic
+
+  other_writable:
+    foreground: green
+    font-style: bold
+
+  sticky:
+    foreground: fg
+    background: blue
+
+  executable_file:
+    foreground: purple
+    font-style: bold
+
+text:
+  special:
+    foreground: orange
+    font-style: bold
+
+  todo:
+    foreground: green
+
+  licenses:
+    foreground: fg
+    font-style: italic
+
+  configuration:
+    foreground: blue
+
+  other:
+    foreground: fg
+
+markup:
+  foreground: orange
+
+programming:
+  source:
+    foreground: yellow
+
+  tooling:
+    foreground: green
+    font-style: italic
+
+media:
+  foreground: purple
+
+  video:
+    foreground: aqua
+    font-style: bold
+
+archives:
+  foreground: orange
+
+  images:
+    foreground: orange
+    font-style: bold
+
+executable:
+  foreground: green
+  font-style: bold
+
+office:
+  foreground: yellow
+
+unimportant:
+  foreground: bg5
+  font-style: italic
